@@ -1,0 +1,124 @@
+:root{
+    --background-color:#16FFBD;
+    --primary-color:#000;
+    --highlight-color: #FF8DAC;
+}
+
+*{
+    font-size: 16px;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    line-height: 2;
+    padding: 0;
+    margin: 0;
+}
+
+
+::-moz-selection{
+    background-color: var(--highlight-color);
+}
+::selection{
+    background-color: var(--highlight-color);
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover{
+    color:var(--highlight-color);
+}
+
+h2,h3{
+    font-family: 'Barlow Condensed', Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container{
+    width: 1920px;
+}
+
+
+/* MENU */
+
+.menu{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin:100px auto 0 auto;
+    width: 50%;
+    align-items: center;
+}
+
+.menu > div{
+    width: 33%;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+.menu ul li{
+    animation-name: opening-logo;
+    animation-duration: 1.4s;
+    animation-timing-function: ease-in-out;
+}
+.menu a{
+    font-family: 'barlow Condensed', Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    
+}
+.menu .logo{
+    animation-name: opening-logo;
+    animation-duration: 1.6s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes opening-logo{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@media(max-width:1450px){
+
+}
+
+
+@media(max-width:1280px){
+    
+}
+@media(max-width:1450px){
+    
+}
+@media(max-width:1450px){
+    
+}
+@media(max-width:1450px){
+    
+}
+@media(max-width:1450px){
+    
+}
